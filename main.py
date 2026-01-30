@@ -6,7 +6,7 @@ print("=== STANDARD CHATBOT ===")
 print(chatbot_response("Analyze inventory"))
 
 print("\n=== AI AGENT ===")
-agent = AIAgent("Analyze inventory and generate report")
+agent = AIAgent("Find risky SKUs and create warning report")
 final_result = agent.run()
 
 print("\nReport generated successfully.")

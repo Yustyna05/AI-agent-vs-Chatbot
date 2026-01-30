@@ -2,17 +2,125 @@ AI AGENT ANALYSIS REPORT
 ========================
 
 Objective:
-Analyze inventory and generate report
+Find risky SKUs and create warning report
 
 Results:
-- Total Stock: 573324216.90
-- Total Sales: 313588800.62
-- Avg Stock: 156603.17
-- Avg Sales: 11655.84
+- Total Stock: 106509347.00
+- Avg Stock: 121586.01
+- Total Sales: 119164885.00
+
+Risky SKUs detected (coverage < 15 days):
+- SKU: 0018d4b9-2e31-489b-b900-5d6259a8a80f | Stock: 54418.00 | Sales: 165886.00 | Coverage Days: 9.84
+- SKU: 03c67fc6-01a4-493e-8baf-24a457fa8624 | Stock: 66353.00 | Sales: 242221.00 | Coverage Days: 8.22
+- SKU: 05a2187d-542d-492d-847d-9374238145da | Stock: 98721.00 | Sales: 273798.00 | Coverage Days: 10.82
+- SKU: 074de745-73a7-4745-a097-6dbf688df976 | Stock: 0.00 | Sales: 7504.00 | Coverage Days: 0.00
+- SKU: 075ef422-58e3-434a-ac69-8f809b09581f | Stock: 172872.00 | Sales: 1056209.00 | Coverage Days: 4.91
+- SKU: 0b4242a7-29a0-4047-96d3-956927694e81 | Stock: 0.00 | Sales: 30800.00 | Coverage Days: 0.00
+- SKU: 0bffeb60-50b3-44b3-aec4-c8d5b553cfc4 | Stock: 1294825.00 | Sales: 2975161.00 | Coverage Days: 13.06
+- SKU: 107efffc-0a54-4ad5-ac70-062beb3cbb10 | Stock: 86422.00 | Sales: 238280.00 | Coverage Days: 10.88
+- SKU: 11cd4b6e-fe79-402b-a97f-08cf23cf8158 | Stock: 0.00 | Sales: 44744.00 | Coverage Days: 0.00
+- SKU: 13955989-ea15-4471-b7c2-b5dc500f98a1 | Stock: 458717.00 | Sales: 1237082.00 | Coverage Days: 11.12
+- SKU: 171e4625-539f-4c74-a787-4d8f17437d71 | Stock: 0.00 | Sales: 63287.00 | Coverage Days: 0.00
+- SKU: 17ecfbdb-6915-4bae-ae96-cfa49cd77f77 | Stock: 0.00 | Sales: 12628.00 | Coverage Days: 0.00
+- SKU: 19aae0d0-ef06-46cc-b619-32ffd76f5313 | Stock: 0.00 | Sales: 52696.00 | Coverage Days: 0.00
+- SKU: 1ffc3f3f-8965-49b1-b17f-431bccb6648a | Stock: 0.00 | Sales: 130305.00 | Coverage Days: 0.00
+- SKU: 23150b8d-23ee-4947-bb0d-a7a5bc687e4b | Stock: 0.00 | Sales: 5516.00 | Coverage Days: 0.00
+- SKU: 27db1ea1-cb34-45d7-81bd-9fdab2b4fd01 | Stock: 0.00 | Sales: 19642.00 | Coverage Days: 0.00
+- SKU: 28704d93-2028-4483-8f35-93b7977cb1b2 | Stock: 0.00 | Sales: 138656.00 | Coverage Days: 0.00
+- SKU: 2aa85736-0ed1-4701-8bc6-074bfaac2094 | Stock: 0.00 | Sales: 486094.00 | Coverage Days: 0.00
+- SKU: 2d928f4b-64ea-4ea0-bfc8-02eaf3aedd05 | Stock: 0.00 | Sales: 34671.00 | Coverage Days: 0.00
+- SKU: 2ec87c33-55db-4f9d-b18f-9110099502ef | Stock: 133595.00 | Sales: 371532.00 | Coverage Days: 10.79
+- SKU: 2ecda926-a844-4886-bb5f-3bcd77f3cb0b | Stock: 0.00 | Sales: 6636.00 | Coverage Days: 0.00
+- SKU: 31cf012d-ca64-46de-8774-ec06f59d0f4c | Stock: 0.00 | Sales: 5481.00 | Coverage Days: 0.00
+- SKU: 3495122c-11d9-4539-839a-f688d7c59f6d | Stock: 383516.00 | Sales: 1126405.00 | Coverage Days: 10.21
+- SKU: 3640fed5-cc5e-4dda-9877-ebcb61a8ba3b | Stock: 0.00 | Sales: 65758.00 | Coverage Days: 0.00
+- SKU: 3841682f-2d32-46ef-bc35-6c512d2e3702 | Stock: 824600.00 | Sales: 1995210.00 | Coverage Days: 12.40
+- SKU: 39bc726f-d43c-4748-97a7-14aa2a6bdc4e | Stock: 30646.00 | Sales: 82397.00 | Coverage Days: 11.16
+- SKU: 3af4fc37-dc24-4c65-8622-b89dc40670be | Stock: 0.00 | Sales: 74648.00 | Coverage Days: 0.00
+- SKU: 3d09c7b8-6e50-4ce1-9c9d-6e760cb2cfae | Stock: 0.00 | Sales: 40915.00 | Coverage Days: 0.00
+- SKU: 3e64781a-32a6-4614-b8a8-938ca3464a28 | Stock: 0.00 | Sales: 35853041.00 | Coverage Days: 0.00
+- SKU: 3ea704be-02ff-4c36-b0af-e4aa036308e9 | Stock: 0.00 | Sales: 41580.00 | Coverage Days: 0.00
+- SKU: 3fc00b26-de12-422c-bf26-c856fe232ae3 | Stock: 0.00 | Sales: 58660.00 | Coverage Days: 0.00
+- SKU: 414981b1-435e-46d6-9a59-9bda466a6587 | Stock: 0.00 | Sales: 75047.00 | Coverage Days: 0.00
+- SKU: 41923eb1-c351-4d52-891c-ba0f28bf8b17 | Stock: 160965.00 | Sales: 359702.00 | Coverage Days: 13.42
+- SKU: 43fcf1d2-3c0f-4f3a-ab58-75b6ce29e211 | Stock: 0.00 | Sales: 7588.00 | Coverage Days: 0.00
+- SKU: 46d120aa-bb7f-41ae-b192-af1a3b44f080 | Stock: 0.00 | Sales: 4900.00 | Coverage Days: 0.00
+- SKU: 4a75dcf1-f34c-445e-bcc8-df1b39a585e4 | Stock: 0.00 | Sales: 84364.00 | Coverage Days: 0.00
+- SKU: 50111a9e-3293-47d9-ab88-8a4551dc7090 | Stock: 0.00 | Sales: 209286.00 | Coverage Days: 0.00
+- SKU: 52a35f35-82c7-4781-b1f8-9144e1e3c769 | Stock: 96306.00 | Sales: 423843.00 | Coverage Days: 6.82
+- SKU: 5323c6be-3113-4d4a-ba5c-5541b214b2bf | Stock: 0.00 | Sales: 47698.00 | Coverage Days: 0.00
+- SKU: 5a1b18c8-3d4c-4d8d-9b65-8760e8a96195 | Stock: 0.00 | Sales: 3143.00 | Coverage Days: 0.00
+- SKU: 5a227c3f-842a-4e28-be40-a783132de715 | Stock: 0.00 | Sales: 17850.00 | Coverage Days: 0.00
+- SKU: 5f0f394f-0cb2-499b-9171-146ad2cabf93 | Stock: 3750684.00 | Sales: 11995851.00 | Coverage Days: 9.38
+- SKU: 61db1ef4-5679-436a-8d6c-be2e43c9d251 | Stock: 0.00 | Sales: 287392.00 | Coverage Days: 0.00
+- SKU: 6276f6bf-7842-4ad3-8af8-c704279b5631 | Stock: 45052.00 | Sales: 253358.00 | Coverage Days: 5.33
+- SKU: 637ddf6a-8757-40eb-a709-822ab5c40b43 | Stock: 152082.00 | Sales: 1103984.00 | Coverage Days: 4.13
+- SKU: 6495774b-2e66-467d-b6c7-d99a4a622712 | Stock: 721455.00 | Sales: 2206911.00 | Coverage Days: 9.81
+- SKU: 6547564f-77b7-4bb2-958f-9f8b0f2c6431 | Stock: 0.00 | Sales: 2422.00 | Coverage Days: 0.00
+- SKU: 6be00015-65b6-496b-994c-55a0e67b67c0 | Stock: 0.00 | Sales: 53200.00 | Coverage Days: 0.00
+- SKU: 6f4f9d92-3c43-4771-ba5d-c2c482a91c2c | Stock: 0.00 | Sales: 40320.00 | Coverage Days: 0.00
+- SKU: 6fcb5917-3c7a-47e1-8cf6-09b73f0078bb | Stock: 0.00 | Sales: 71106.00 | Coverage Days: 0.00
+- SKU: 716fe8c4-0ca8-4158-a9cf-7879c7509ae8 | Stock: 0.00 | Sales: 6356.00 | Coverage Days: 0.00
+- SKU: 73ca148c-be18-43c8-a1f1-76e85960844b | Stock: 32998.00 | Sales: 74424.00 | Coverage Days: 13.30
+- SKU: 75543932-a118-4c0b-aa78-765028da925d | Stock: 0.00 | Sales: 578984.00 | Coverage Days: 0.00
+- SKU: 75ec0457-f950-476c-8c08-0ed56a9fbf3a | Stock: 0.00 | Sales: 10689.00 | Coverage Days: 0.00
+- SKU: 76f7c5aa-1da1-4bbd-a1bf-ce27023c7b2e | Stock: 0.00 | Sales: 29757.00 | Coverage Days: 0.00
+- SKU: 7d789e7b-6afe-42e8-95b7-07328e3ee9ec | Stock: 0.00 | Sales: 86520.00 | Coverage Days: 0.00
+- SKU: 7ff8ffc1-3836-4d3a-aed5-1fdffa0e3264 | Stock: 30758.00 | Sales: 530761.00 | Coverage Days: 1.74
+- SKU: 835b023b-579f-4a66-af57-197297ff9edc | Stock: 128205.00 | Sales: 528192.00 | Coverage Days: 7.28
+- SKU: 85c290d9-b4e6-46e8-8959-93e574445ed0 | Stock: 0.00 | Sales: 38920.00 | Coverage Days: 0.00
+- SKU: 860a830e-36fe-4e1f-8160-ec8a3f63ee6e | Stock: 0.00 | Sales: 98168.00 | Coverage Days: 0.00
+- SKU: 8cf8af15-e2eb-4287-8a33-e346f9bcc883 | Stock: 0.00 | Sales: 14721.00 | Coverage Days: 0.00
+- SKU: 8f5c8db1-9a6c-433b-b866-dc7156a990d3 | Stock: 33551.00 | Sales: 271432.00 | Coverage Days: 3.71
+- SKU: 90e210df-0fe2-42e6-9b3d-c1d9306f8068 | Stock: 0.00 | Sales: 39599.00 | Coverage Days: 0.00
+- SKU: 94d9be80-7443-482e-820f-9eb519cd465c | Stock: 46214.00 | Sales: 119014.00 | Coverage Days: 11.65
+- SKU: 954d8c89-ff3c-4a63-ab56-a979c04b472d | Stock: 117117.00 | Sales: 268527.00 | Coverage Days: 13.08
+- SKU: 96e7bfdc-7063-4ab8-b0c8-7e7b2184361c | Stock: 299705.00 | Sales: 1004129.00 | Coverage Days: 8.95
+- SKU: 970802cb-bf82-4d54-bced-5fd53cd9faf2 | Stock: 36400.00 | Sales: 104888.00 | Coverage Days: 10.41
+- SKU: 992da4da-2d2c-46a4-94e6-9f1b892bc6fb | Stock: 0.00 | Sales: 5950.00 | Coverage Days: 0.00
+- SKU: 9bc0f716-5fd2-4c6c-8696-21ecfe15fd94 | Stock: 0.00 | Sales: 119350.00 | Coverage Days: 0.00
+- SKU: 9c3aefe6-f061-43cf-a35e-9b2af401d34f | Stock: 0.00 | Sales: 10689.00 | Coverage Days: 0.00
+- SKU: 9c9659cc-fdf8-41e8-a016-a91f9a951091 | Stock: 0.00 | Sales: 82600.00 | Coverage Days: 0.00
+- SKU: 9d6c265b-e7d1-4456-a5e2-18197c69a97d | Stock: 0.00 | Sales: 23359.00 | Coverage Days: 0.00
+- SKU: 9e50a17c-bdd7-4f90-bbb2-735e1af7edf2 | Stock: 0.00 | Sales: 1069047.00 | Coverage Days: 0.00
+- SKU: 9f029ac1-faa1-4b3a-a493-2a2cd7e9bae7 | Stock: 0.00 | Sales: 173124.00 | Coverage Days: 0.00
+- SKU: 9f242247-5641-418e-acbb-670089e723f0 | Stock: 0.00 | Sales: 28000.00 | Coverage Days: 0.00
+- SKU: a0192797-9e88-4909-93e4-c1ea78f8c4a1 | Stock: 0.00 | Sales: 14938.00 | Coverage Days: 0.00
+- SKU: ae2375ca-9351-4d66-b11d-093180c39a73 | Stock: 0.00 | Sales: 33040.00 | Coverage Days: 0.00
+- SKU: b3a0f642-5582-4305-996c-f68b59d90ea4 | Stock: 0.00 | Sales: 17248.00 | Coverage Days: 0.00
+- SKU: b4526702-7b5d-4ed5-b521-3e8589b65864 | Stock: 129591.00 | Sales: 363237.00 | Coverage Days: 10.70
+- SKU: b4a44bd1-e1fd-4b82-aa75-4d376515c5d4 | Stock: 0.00 | Sales: 188370.00 | Coverage Days: 0.00
+- SKU: b5775ad1-c50f-4b72-ab1d-5159949e5a31 | Stock: 0.00 | Sales: 39214.00 | Coverage Days: 0.00
+- SKU: b892d78c-c0e5-4605-8dc9-211d9128d6a0 | Stock: 0.00 | Sales: 30422.00 | Coverage Days: 0.00
+- SKU: c2e517b0-73c8-4692-9327-4b12bd79fa03 | Stock: 0.00 | Sales: 8736.00 | Coverage Days: 0.00
+- SKU: ce588b38-1b0b-4ce3-bf87-30ce771ba9ed | Stock: 952917.00 | Sales: 3128510.00 | Coverage Days: 9.14
+- SKU: ce6af71a-636c-4164-8f5a-b9372d66c8a0 | Stock: 0.00 | Sales: 12243.00 | Coverage Days: 0.00
+- SKU: d28497be-de4f-4662-b087-954dd61e344a | Stock: 0.00 | Sales: 186830.00 | Coverage Days: 0.00
+- SKU: d2e0483d-ca6a-4db3-9bfd-ab82d6e0e53e | Stock: 0.00 | Sales: 134155.00 | Coverage Days: 0.00
+- SKU: d40715d4-d744-4b56-bc43-98c3dcf79ac8 | Stock: 0.00 | Sales: 49651.00 | Coverage Days: 0.00
+- SKU: d4412dc5-cd13-46a0-aab3-29231abe6849 | Stock: 0.00 | Sales: 21000.00 | Coverage Days: 0.00
+- SKU: da57b4f1-279c-41cd-8283-4de756b2620d | Stock: 0.00 | Sales: 1008.00 | Coverage Days: 0.00
+- SKU: db6508b7-6acf-45c8-9858-867279336c13 | Stock: 0.00 | Sales: 231973.00 | Coverage Days: 0.00
+- SKU: dbacffb4-c6cc-448f-87ae-7116ef8962d9 | Stock: 149310.00 | Sales: 735252.00 | Coverage Days: 6.09
+- SKU: dc4532ce-c61e-4f63-ba43-801bb42c5747 | Stock: 465836.00 | Sales: 1597540.00 | Coverage Days: 8.75
+- SKU: e37d3f52-45de-401d-ae20-9131c8c99758 | Stock: 90104.00 | Sales: 1205554.00 | Coverage Days: 2.24
+- SKU: e516fa6a-3367-453d-a1aa-8b6063d7c627 | Stock: 0.00 | Sales: 19467.00 | Coverage Days: 0.00
+- SKU: eb5fbc6c-e30a-478d-a7da-a59c0599fcfe | Stock: 0.00 | Sales: 1120.00 | Coverage Days: 0.00
+- SKU: ec57509b-239c-4a50-a1dd-1fd8605100e8 | Stock: 0.00 | Sales: 2534.00 | Coverage Days: 0.00
+- SKU: edab920d-9da3-4504-8430-4c8591ff1b6e | Stock: 59038.00 | Sales: 271068.00 | Coverage Days: 6.53
+- SKU: edbb71c1-f9d9-4483-82c2-45cc110fbd6f | Stock: 0.00 | Sales: 28882.00 | Coverage Days: 0.00
+- SKU: ee66b779-f43e-418f-8d46-a18158b30e5c | Stock: 0.00 | Sales: 16100.00 | Coverage Days: 0.00
+- SKU: eff8cc9a-1abb-48ae-bd91-d58a55ccf7f9 | Stock: 0.00 | Sales: 4550.00 | Coverage Days: 0.00
+- SKU: f33d2bef-5c3c-4855-9b71-6d7a6987ae68 | Stock: 0.00 | Sales: 1554.00 | Coverage Days: 0.00
+- SKU: f900a150-dd59-4c8f-ac3d-d104ad101400 | Stock: 0.00 | Sales: 37527.00 | Coverage Days: 0.00
+- SKU: fa13b857-5f48-4edd-85a0-85df5d093ac1 | Stock: 131264.00 | Sales: 504231.00 | Coverage Days: 7.81
+- SKU: faeb09fe-e235-4107-a77d-9d6986e8965d | Stock: 0.00 | Sales: 2058.00 | Coverage Days: 0.00
+- SKU: fce5e86d-5aa2-4daa-b0e9-5247393202bd | Stock: 0.00 | Sales: 6650.00 | Coverage Days: 0.00
 
 Execution steps:
 - Executing: Load inventory data
 - Executing: Analyze stock and sales
-- Result: {'total_stock': np.float64(573324216.9046), 'total_sales': np.float64(313588800.6156), 'avg_stock': np.float64(156603.17315066923), 'avg_sales': np.float64(11655.843020205173)}
-- Executing: Check goal
-- Executing: Report results
+- Analysis result calculated
+- Executing: Find risky SKUs
+- Risky SKUs found: 106
+- Executing: Report warning

@@ -35,3 +35,22 @@ def basic_inventory_stats():
         "avg_stock": stock["Stock"].mean(),
         "avg_sales": sales["Sales"].mean()
     }
+
+def find_risky_skus(threshold_days=30):
+    stock, sales, _ = load_data()
+
+    # aggregate per SKU
+    stock_sku = stock.groupby("SKU")["Stock"].sum()
+    sales_sku = sales.groupby("SKU")["Sales"].sum()
+
+    merged = stock_sku.to_frame().join(sales_sku, how="left").fillna(0)
+
+    # avoid divide by zero
+    merged["coverage_days"] = merged.apply(
+        lambda r: (r["Stock"] / r["Sales"] * 30) if r["Sales"] > 0 else 999,
+        axis=1
+    )
+
+    risky = merged[merged["coverage_days"] < threshold_days]
+
+    return risky
